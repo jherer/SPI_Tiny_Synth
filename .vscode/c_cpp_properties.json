@@ -1,0 +1,83 @@
+{
+    "configurations": [
+        {
+            "name": "ATtiny85",
+            "windowsSdkVersion": "10.0.22621.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x86",
+            "compilerPath": "C:\\\\Users\\\\joshu\\\\AppData\\\\Local\\\\Arduino15\\\\packages\\\\arduino\\\\tools\\\\avr-gcc\\\\7.3.0-atmel3.6.1-arduino7\\\\bin\\\\avr-g++.exe",
+            "compilerPathInCppPropertiesJson": "C:\\\\Users\\\\joshu\\\\AppData\\\\Local\\\\Arduino15\\\\packages\\\\arduino\\\\tools\\\\avr-gcc\\\\7.3.0-atmel3.6.1-arduino7\\\\bin\\\\avr-g++.exe",
+            "mergeConfigurations": false,
+            "recursiveIncludes": {
+                "reduce": "default",
+                "priority": "afterSystemIncludes",
+                "order": "depthFirst"
+            },
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__AVR_ATtiny85__",
+                "__asm__"
+            ],
+            "includePath": [
+                "c:/Users/joshu/Documents/AVR/AVR/Tiny_Synth_SPI_Peripheral/include"
+            ]
+        },
+        {
+            "name": "AVR_tiny85",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include/**",
+                "C://Users//joshu//AppData//Local//Arduino15//packages//arduino//tools//avr-gcc//7.3.0-atmel3.6.1-arduino7//include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__AVR_ATtiny85__",
+                "__asm__"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "C:\\\\Users\\\\joshu\\\\AppData\\\\Local\\\\Arduino15\\\\packages\\\\arduino\\\\tools\\\\avr-gcc\\\\7.3.0-atmel3.6.1-arduino7\\\\bin\\\\avr-g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "compilerArgs": [
+                "-mmcu=attiny85",
+                "-DF_CPU=8000000LU"
+            ],
+            "compilerPathInCppPropertiesJson": "C:\\\\Users\\\\joshu\\\\AppData\\\\Local\\\\Arduino15\\\\packages\\\\arduino\\\\tools\\\\avr-gcc\\\\7.3.0-atmel3.6.1-arduino7\\\\bin\\\\avr-g++.exe",
+            "mergeConfigurations": false,
+            "recursiveIncludes": {
+                "reduce": "default",
+                "priority": "afterSystemIncludes",
+                "order": "depthFirst"
+            },
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "intelliSenseMode": "windows-gcc-x64"
+        },
+        {
+            "name": "Attiny85_Good",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
